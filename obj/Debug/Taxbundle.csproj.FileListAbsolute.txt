@@ -1,0 +1,6 @@
+C:\Users\Acer\source\Repos\Taxbundle\bin\Debug\ClassLibrary.dll
+C:\Users\Acer\source\Repos\Taxbundle\bin\Debug\ClassLibrary.pdb
+C:\Users\Acer\source\Repos\Taxbundle\obj\Debug\Taxbundle.csproj.AssemblyReference.cache
+C:\Users\Acer\source\Repos\Taxbundle\obj\Debug\Taxbundle.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\Repos\Taxbundle\obj\Debug\ClassLibrary.dll
+C:\Users\Acer\source\Repos\Taxbundle\obj\Debug\ClassLibrary.pdb
