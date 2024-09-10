@@ -37,6 +37,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PX.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Common.Std, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PX.Common.Std.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PX.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data.BQL.Fluent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PX.Data.BQL.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PX.Objects.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -49,10 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Customization Package\" />
-    <Folder Include="DAC Extension\" />
-    <Folder Include="DAC\" />
-    <Folder Include="Graph Extension\" />
-    <Folder Include="Graph\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="References\PX.Common.dll" />
@@ -65,6 +81,17 @@
     <Content Include="References\PX.Data.xml" />
     <Content Include="References\PX.Objects.dll" />
     <Content Include="References\PX.Objects.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAC Extension\APTranExtensions.cs" />
+    <Compile Include="DAC Extension\ARTranExtensions.cs" />
+    <Compile Include="DAC Extension\BAccountExtensions.cs" />
+    <Compile Include="DAC Extension\InventoryItemExtensions.cs" />
+    <Compile Include="DAC\WHTax.cs" />
+    <Compile Include="Graph Extension\APInvoiceEntry.cs" />
+    <Compile Include="Graph Extension\ARInvoiceEntry.cs" />
+    <Compile Include="Graph Extension\VendorMaint.cs" />
+    <Compile Include="Graph\WHTaxMaint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
