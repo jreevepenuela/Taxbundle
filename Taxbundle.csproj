@@ -65,11 +65,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Customization Package\TaxBundle.zip" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Customization Package\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="References\PX.Common.dll" />
     <Content Include="References\PX.Common.Std.dll" />
