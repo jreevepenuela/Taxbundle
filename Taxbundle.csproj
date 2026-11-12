@@ -5,7 +5,7 @@
     <ProjectGuid>{348D42D8-2CDC-42A1-B1A7-4785679E7A47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>ClassLibrary</AssemblyName>
+    <AssemblyName>Taxbundle</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -39,23 +39,28 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PX.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\Bin\PX.Common.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PX.Common.Std, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PX.Common.Std.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\Bin\PX.Common.Std.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PX.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PX.Data.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\Bin\PX.Data.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PX.Data.BQL.Fluent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PX.Data.BQL.Fluent.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\Bin\PX.Data.BQL.Fluent.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PX.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PX.Objects.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\Bin\PX.Objects.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,18 +73,8 @@
     <None Include="Customization Package\TaxBundle.zip" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="References\PX.Common.dll" />
-    <Content Include="References\PX.Common.Std.dll" />
-    <Content Include="References\PX.Common.Std.xml" />
-    <Content Include="References\PX.Common.xml" />
-    <Content Include="References\PX.Data.BQL.Fluent.dll" />
-    <Content Include="References\PX.Data.BQL.Fluent.xml" />
-    <Content Include="References\PX.Data.dll" />
-    <Content Include="References\PX.Data.xml" />
-    <Content Include="References\PX.Objects.dll" />
-    <Content Include="References\PX.Objects.xml" />
+    <Folder Include="References\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAC Extension\APTranExtensions.cs" />
@@ -91,6 +86,12 @@
     <Compile Include="Graph Extension\ARInvoiceEntry.cs" />
     <Compile Include="Graph Extension\VendorMaint.cs" />
     <Compile Include="Graph\WHTaxMaint.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\WH\WH200000\WH200000.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="UI\WH\WH200000\WH200000.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

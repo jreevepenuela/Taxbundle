@@ -1,0 +1,5 @@
+﻿<Automation screen="SO302000">
+    <Fields ScreenID="SO302000">
+        <Field IsActive="True" DisplayName="Shipping Zone ID" FieldName="ShipZoneID" RequiredCondition="True" ObjectName="PX.Objects.SO.SOShipment" IsFromSchema="False" />
+    </Fields>
+</Automation>

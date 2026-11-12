@@ -1,30 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.34525.116
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12021.73
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxbundle", "Taxbundle.csproj", "{348D42D8-2CDC-42A1-B1A7-4785679E7A47}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TaxBundle", "http://localhost/TaxBundle", "{3810A353-CA0B-48D9-BCE8-F3CC2360DF32}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RAPID.26R1", "http://localhost/RAPID.26R1", "{25A7347F-FE1C-1193-A334-A37BEADBF0E0}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		ProjectReferences = ""
-		Debug.AspNetCompiler.VirtualPath = "/TaxBundle"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Acumatica ERP\TaxBundle\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TaxBundle\"
+		ProjectReferences = "{348d42d8-2cdc-42a1-b1a7-4785679e7a47}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/RAPID.26R1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RAPID.26R1\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/TaxBundle"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Acumatica ERP\TaxBundle\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TaxBundle\"
+		Release.AspNetCompiler.VirtualPath = "/RAPID.26R1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RAPID.26R1\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\..\..\Acumatica ERP\TaxBundle\"
+		SlnRelativePath = "..\..\..\..\..\Program Files\Acumatica ERP\RAPID.26R1\"
 	EndProjectSection
 EndProject
 Global
@@ -37,10 +37,10 @@ Global
 		{348D42D8-2CDC-42A1-B1A7-4785679E7A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348D42D8-2CDC-42A1-B1A7-4785679E7A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{348D42D8-2CDC-42A1-B1A7-4785679E7A47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3810A353-CA0B-48D9-BCE8-F3CC2360DF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3810A353-CA0B-48D9-BCE8-F3CC2360DF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3810A353-CA0B-48D9-BCE8-F3CC2360DF32}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{3810A353-CA0B-48D9-BCE8-F3CC2360DF32}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{25A7347F-FE1C-1193-A334-A37BEADBF0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A7347F-FE1C-1193-A334-A37BEADBF0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A7347F-FE1C-1193-A334-A37BEADBF0E0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A7347F-FE1C-1193-A334-A37BEADBF0E0}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

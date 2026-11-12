@@ -4,7 +4,7 @@ using PX.Data;
 namespace TaxBundle
 {
     [PXCacheName("Withholding Tax")]
-    public class WHTax : IBqlTable
+    public class WHTax : PXBqlTable, IBqlTable
     {
         #region WithholdingID
         [PXDBIdentity]
